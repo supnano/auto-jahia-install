@@ -1,0 +1,1 @@
+# auto-jahia-install
