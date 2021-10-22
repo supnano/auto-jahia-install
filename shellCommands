@@ -1,3 +1,3 @@
-apt install -y openjdk-11-jdk-headless wget
+apt install -y openjdk-11-jdk-headless wget curl
 wget https://downloads.jahia.com/downloads/jahia/jahia8.0.3/Jahia-EnterpriseDistribution-8.0.3.0-ra91416d.jar
 java -jar ./Jahia-EnterpriseDistribution-8.0.3.0-ra91416d.jar installScript
