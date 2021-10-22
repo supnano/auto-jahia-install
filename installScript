@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="fra">
+<com.izforge.izpack.panels.HelloPanel id="UNKNOWN (com.izforge.izpack.panels.HelloPanel)"/>
+<com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)"/>
+<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+<!-- ## PERSO ## -->
+<installpath>C:\Jahia-EnterpriseDistribution-8.0.3.0</installpath>
+</com.izforge.izpack.panels.TargetPanel>
+<com.izforge.izpack.panels.UserInputPanel id="installType">
+<userInput>
+<entry key="installation.type" value="advanced"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.PacksPanel id="packsPanel">
+<pack index="0" name="jahia" selected="true"/>
+<pack index="1" name="tomcat" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbMode">
+<userInput>
+<entry key="dbSettings.mode" value="embedded"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbType">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbTypeMySQL">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbSettings">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="webApp">
+<userInput>
+<entry key="karaf.remoteShell.port" value="8101"/>
+<entry key="jahia.war.contextName" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="appServer">
+<userInput>
+<entry key="tomcat.ajpPort" value="8009"/>
+<entry key="tomcat.serverPort" value="8005"/>
+<entry key="tomcat.jvmRoute" value=""/>
+<entry key="catalina.otherOptions" value=""/>
+<entry key="tomcat.sslPort" value="8443"/>
+<entry key="catalina.heapSize" value="2048"/>
+<entry key="tomcat.httpPort" value="8080"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="operatingMode">
+<userInput>
+<entry key="operatingMode" value="development"/>
+<entry key="operatingMode.configure.cluster" value="false"/>
+<entry key="operatingMode.configure.ldap" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="ldap">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="cluster">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="superUser">
+<!-- ## PERSO ## -->
+<userInput>
+<entry key="superUser.password" value="najib"/>
+<entry key="superUser.firstname" value="najib"/>
+<entry key="superUser.lastname" value="najiblaaribi"/>
+<entry key="superUser.email" value="najibjahialaaribi@yopmail.com"/>
+<entry key="superUser.preferredLang" value="fr"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="mailSettings">
+<userInput>
+<entry key="mailSettings.server" value=""/>
+<entry key="mailSettings.from" value=""/>
+<entry key="mailSettings.administrator" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="studioToolSettings">
+<userInput>
+<entry key="studioToolSettings.svnPath" value="svn"/>
+<entry key="studioToolSettings.mvnPath" value="mvn"/>
+<entry key="studioToolSettings.gitPath" value="git"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="externalToolSettings">
+<userInput>
+<entry key="dmConfig.imagemagickPath" value=""/>
+<entry key="dmConfig.officePath" value=""/>
+<entry key="dmConfig.validate" value="true"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="additionalSettings">
+<userInput>
+<entry key="defaultLanguageCode" value="fr"/>
+<entry key="additionalModulesPath" value=""/>
+<entry key="licensePath" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="externalizedConfig">
+<userInput>
+<entry key="externalizedConfigTargetPath" value="C:\Jahia-EnterpriseDistribution-8.0.3.0\digital-factory-config"/>
+<entry key="data.dir" value="C:\Jahia-EnterpriseDistribution-8.0.3.0\digital-factory-data"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)"/>
+<com.izforge.izpack.panels.ExtendedInstallPanel id="UNKNOWN (com.izforge.izpack.panels.ExtendedInstallPanel)"/>
+<com.izforge.izpack.panels.ShortcutPanel id="shortcutPanel">
+<programGroup name="Jahia 8.0.3.0"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Opens the Jahia Community Web site" encoding="UTF-8" group="true" icon="%SystemRoot%\system32\shell32.dll" iconIndex="13" initialState="1" mimetype="" name="Jahia Community Web Site" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\docs\JahiaCommunity.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Opens the Jahia Company Web site" encoding="UTF-8" group="true" icon="%SystemRoot%\system32\shell32.dll" iconIndex="13" initialState="1" mimetype="" name="Jahia Company Web Site" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\docs\JahiaCorporate.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Opens the documentation page on the Jahia Community Web site" encoding="UTF-8" group="true" icon="%SystemRoot%\system32\shell32.dll" iconIndex="13" initialState="1" mimetype="" name="Jahia Documentation" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\docs\JahiaDocumentation.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Opens the Issue Tracking system" encoding="UTF-8" group="true" icon="%SystemRoot%\system32\shell32.dll" iconIndex="13" initialState="1" mimetype="" name="Issue Tracking" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\docs\IssueTrackingCommunity.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Open the Jahia welcome page (running on localhost)" encoding="UTF-8" group="true" icon="C:\Jahia-EnterpriseDistribution-8.0.3.0\icons\jahia.ico" iconIndex="0" initialState="1" mimetype="" name="Jahia" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\OpenHome.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="Open the Jahia Administration page (running on localhost)" encoding="UTF-8" group="true" icon="C:\Jahia-EnterpriseDistribution-8.0.3.0\icons\jahia.ico" iconIndex="0" initialState="1" mimetype="" name="Jahia Administration" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\OpenAdministration.URL" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This starts the Jahia Server" encoding="UTF-8" group="true" icon="C:\Jahia-EnterpriseDistribution-8.0.3.0\icons\start.ico" iconIndex="0" initialState="1" mimetype="" name="Start Jahia" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\start.bat" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="C:\Jahia-EnterpriseDistribution-8.0.3.0\"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This stops the Jahia Server" encoding="UTF-8" group="true" icon="C:\Jahia-EnterpriseDistribution-8.0.3.0\icons\stop.ico" iconIndex="0" initialState="1" mimetype="" name="Stop Jahia" target="C:\Jahia-EnterpriseDistribution-8.0.3.0\stop.bat" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="C:\Jahia-EnterpriseDistribution-8.0.3.0\"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="-jar C:\Jahia-EnterpriseDistribution-8.0.3.0\uninstaller\uninstaller.jar" createForAll="false" description="This removes the Jahia Server from your system" encoding="UTF-8" group="true" icon="%SystemRoot%\system32\shell32.dll" iconIndex="31" initialState="0" mimetype="" name="Uninstall Jahia" target="C:\Program Files\Java\jre1.8.0_241\bin\java.exe" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory=""/>
+</com.izforge.izpack.panels.ShortcutPanel>
+<com.izforge.izpack.panels.UserInputPanel id="afterInstall">
+<userInput>
+<entry key="afterInstall.startTomcat" value="true"/>
+<entry key="afterInstall.launchJahia" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+</AutomatedInstallation>
