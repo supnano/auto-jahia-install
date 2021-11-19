@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="fra">
+<com.izforge.izpack.panels.HelloPanel id="UNKNOWN (com.izforge.izpack.panels.HelloPanel)"/>
+<com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)"/>
+<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+<installpath>C:\dev\jed-7.3.5.1.Node2</installpath>
+</com.izforge.izpack.panels.TargetPanel>
+<com.izforge.izpack.panels.UserInputPanel id="installType">
+<userInput>
+<entry key="installation.type" value="advanced"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.PacksPanel id="packsPanel">
+<pack index="0" name="jahia" selected="true"/>
+<pack index="1" name="tomcat" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.UserInputPanel id="serverType">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbMode">
+<userInput>
+<entry key="dbSettings.mode" value="standalone"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbType">
+<userInput>
+<entry key="dbSettings.dbms.type" value="postgresql"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbTypeMySQL">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="dbSettings">
+<userInput>
+<entry key="dbSettings.connection.url.postgresql" value="jdbc:postgresql://localhost:15433/jahia"/>
+<entry key="dbSettings.dbms.createTables" value="false"/>
+<entry key="dbSettings.connection.username" value="jahia"/>
+<entry key="dbSettings.dbms.storeFilesInDB" value="false"/>
+<entry key="dbSettings.connection.driver.postgresql" value="org.postgresql.Driver"/>
+<entry key="dbSettings.connection.password" value="jahia"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="webApp">
+<userInput>
+<entry key="jahiaManager.password" value="password"/>
+<entry key="jahiaManager.username" value="jahia"/>
+<entry key="karaf.remoteShell.port" value="48101"/>
+<entry key="jahia.war.contextName" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="appServer">
+<userInput>
+<entry key="tomcat.ajpPort" value="48009"/>
+<entry key="tomcat.serverPort" value="48005"/>
+<entry key="tomcat.jvmRoute" value=""/>
+<entry key="catalina.otherOptions" value=""/>
+<entry key="tomcat.sslPort" value="48443"/>
+<entry key="catalina.heapSize" value="2048"/>
+<entry key="tomcat.httpPort" value="48080"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="operatingMode">
+<userInput>
+<entry key="operatingMode" value="production"/>
+<entry key="operatingMode.configure.cluster" value="true"/>
+<entry key="operatingMode.configure.ldap" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="ldap">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="cluster">
+<userInput>
+<entry key="dbSettings.dbms.fileDataStorePath" value="C:\dev\clusterDataStore"/>
+<entry key="cluster.processingServer" value="false"/>
+<entry key="cluster.node.ipAddress" value="&lt;auto&gt;"/>
+<entry key="cluster.node.port" value="47870"/>
+<entry key="cluster.node.serverId" value="&lt;auto&gt;"/>
+<entry key="cluster.hazelcast.port" value="47860"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="superUser">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="mailSettings">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="studioToolSettings">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="externalToolSettings">
+<userInput>
+<entry key="dmConfig.imagemagickPath" value=""/>
+<entry key="dmConfig.officePath" value="C:\Program Files\LibreOffice 5"/>
+<entry key="dmConfig.validate" value="true"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="additionalSettings">
+<userInput>
+<entry key="defaultLanguageCode" value="fr"/>
+<entry key="additionalModulesPath" value=""/>
+<entry key="licensePath" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="externalizedConfig">
+<userInput>
+<entry key="externalizedConfigTargetPath" value="C:\dev\jed-7.3.5.1.Node2\digital-factory-config"/>
+<entry key="data.dir" value="C:\dev\jed-7.3.5.1.Node2\digital-factory-data"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)"/>
+<com.izforge.izpack.panels.ExtendedInstallPanel id="UNKNOWN (com.izforge.izpack.panels.ExtendedInstallPanel)"/>
+<com.izforge.izpack.panels.ShortcutPanel id="shortcutPanel"/>
+<com.izforge.izpack.panels.UserInputPanel id="afterInstall">
+<userInput>
+<entry key="afterInstall.startTomcat" value="true"/>
+<entry key="afterInstall.launchJahia" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+</AutomatedInstallation>
